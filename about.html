@@ -14,14 +14,17 @@
   <meta property="og:url" content="https://aibel-dev.github.io/seo-metadata/about.html">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
-    <h1>Robel J. Azucena</h1>
+  <header class="site-header">
+    <a href="index.html" class="logo">Robel J. Azucena</a>
     <nav>
-      <ul>
+      <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="about.html" class="current">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
@@ -29,8 +32,12 @@
   <main>
     <section>
       <h2>About me</h2>
-      <p>I'm a BSIS student at Carlos Hilado Memorial State University.</p>
-      <p>I'm currently learning full-stack web development using PHP, MySQL, and vanilla JavaScript.</p>
+      <div class="card">
+        <p>I'm a BSIS student at Carlos Hilado Memorial State University.</p>
+      </div>
+      <div class="card">
+        <p>I'm currently learning full-stack web development using PHP, MySQL, and vanilla JavaScript.</p>
+      </div>
       <p>This site was built as part of my PROFE7 coursework, practicing semantic HTML5.</p>
     </section>
   </main>

@@ -14,6 +14,9 @@
   <meta property="og:url" content="https://aibel-dev.github.io/seo-metadata/index.html">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
   <!-- JSON-LD Person Schema -->
   <script type="application/ld+json">
   {
@@ -36,11 +39,11 @@
   </script>
 </head>
 <body>
-  <header>
-    <h1>Robel J. Azucena</h1>
+  <header class="site-header">
+    <a href="index.html" class="logo">Robel J. Azucena</a>
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
+      <ul class="nav-links">
+        <li><a href="index.html" class="current">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
@@ -71,6 +74,17 @@
       <track src="assets/captions.vtt" kind="captions" srclang="en" label="English">
       Your browser does not support the video tag.
     </video>
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="project-card featured"><h3>Project 1</h3><p>Short description.</p></article>
+        <article class="project-card"><h3>Project 2</h3><p>Short description.</p></article>
+        <article class="project-card"><h3>Project 3</h3><p>Short description.</p></article>
+        <article class="project-card"><h3>Project 4</h3><p>Short description.</p></article>
+        <article class="project-card"><h3>Project 5</h3><p>Short description.</p></article>
+        <article class="project-card"><h3>Project 6</h3><p>Short description.</p></article>
+      </div>
+    </section>
   </main>
   <footer>
     <p>&copy; 2026 Robel J. Azucena</p>
